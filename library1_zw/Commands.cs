@@ -8,7 +8,8 @@ using zzr = ZwSoft.ZwCAD.Runtime;
 namespace library1_zw
 {
     public class Commands
-    {
+    {         
+        
         [zzr.CommandMethod("PI_kota_konstrukcja")]
 
         public void WstawKoteKontrukcyjna()
@@ -19,8 +20,8 @@ namespace library1_zw
         [zzr.CommandMethod("PI_kota_wykonczenie")]
 
         public void WstawKoteWykonczeniowa()
-        {
-            Library1.Kota_Wyk();
+        {            
+                    Library1.Kota_Wyk();
         }
 
         [zzr.CommandMethod("PI_viewport_skala")]
@@ -37,7 +38,7 @@ namespace library1_zw
             Library1.Zigzag();
         }
 
-        [zzr.CommandMethod("PI_izo1")]
+        [zzr.CommandMethod("PI_izolacja1")]
 
         public void Izo1()
         {
